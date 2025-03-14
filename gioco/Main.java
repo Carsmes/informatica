@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Gioco di Movimenti");
+        JFrame frame = new JFrame("Movimenti");
         GamePanel gioco = new GamePanel();
 
         frame.add(gioco);
